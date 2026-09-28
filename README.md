@@ -55,3 +55,10 @@ All AI-generated code was reviewed, tested, and modified to fit the project.
 Thuto Molefe — WAS262 Web Animation Scripting — STADIO
 
 
+## References
+
+Berg, C., Blankespoor, B., & Selod, H. (2025). Better roads, better off? Evidence on upgrading roads in Tanzania. *The World Bank Economic Review, 39*(1), 104–123. https://doi.org/10.1093/wber/lhae017
+
+Griffith, E. F., Schurer, J. M., Mawindo, B., Kwibuka, R., Turibyarive, T., & Amuguni, J. H. (2023). The use of drones to deliver Rift Valley Fever vaccines in Rwanda: Perceptions and recommendations. *Vaccines, 11*(3), 605. https://doi.org/10.3390/vaccines11030605
+
+MDN Web Docs. (2024). *Canvas API*. Mozilla. https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API

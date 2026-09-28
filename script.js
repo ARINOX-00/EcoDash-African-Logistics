@@ -1,3 +1,14 @@
+// ============================================================
+// EcoDash — African Logistics Simulator
+// WAS262 Web Animation Scripting — SF1
+// Author: Thuto Molefe
+// Description: HTML5 Canvas drone delivery simulation set in
+//              an African township at night. Includes physics,
+//              obstacles, missions, day/night cycle, and
+//              localStorage-based high scores.
+// ============================================================
+
+
 let canvas = document.querySelector("canvas");
 canvas.width = innerWidth;
 canvas.height = innerHeight;

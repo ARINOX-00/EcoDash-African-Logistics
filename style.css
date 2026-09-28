@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0a0e1a;
+  color: #ffffff;
+  user-select: none;
+}
+
+/* CANVAS FILLS THE SCREEN */
+canvas {
+  display: block;
+  background: #0a0e1a;
+}
+
+/* ALL OVERLAY SCREENS SHARE THIS */
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: rgba(10, 14, 26, 0.92);
+  z-index: 10;
+  text-align: center;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 64px;
+  color: #ffb347;      /* sunset amber */
+  letter-spacing: 6px;
+  text-shadow: 0 0 20px #ff8c00;
+}
+
+h2 {
+  font-size: 42px;
+  color: #ff6b35;      /* warning orange */
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 18px;
+  color: #a8b2c1;
+}
+
+button {
+  padding: 14px 38px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #ffb347;
+  color: #0a0e1a;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: #ff8c00;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff8c00;
+}
+
+/* PAUSE BUTTON IN TOP-RIGHT CORNER */
+#hud {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 5;
+}
+
+#pauseBtn {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+}

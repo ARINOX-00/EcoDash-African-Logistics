@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoDash - African Logistics Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas></canvas>
+
+  <!-- start screen -->
+  <div id="startScreen" class="screen">
+    <h1>ECODASH</h1>
+    <p>Solar Drone Delivery — Township Night Run</p>
+    <p>Best Score: <span id="startHighScore">0</span></p>
+    <button id="startBtn">START MISSION</button>
+  </div>
+
+  <!-- pause screen -->
+  <div id="pauseScreen" class="screen hidden">
+    <h2>PAUSED</h2>
+    <button id="resumeBtn">RESUME</button>
+    <button id="restartBtn">RESTART</button>
+  </div>
+
+  <!-- game over screen -->
+  <div id="gameOverScreen" class="screen hidden">
+    <h2>MISSION FAILED</h2>
+    <p>Distance: <span id="finalDistance">0</span> m</p>
+    <p>Deliveries: <span id="finalDeliveries">0</span></p>
+    <p>High Score: <span id="highScore">0</span></p>
+    <button id="playAgainBtn">PLAY AGAIN</button>
+  </div>
+
+  <!-- heads up display -->
+  <div id="hud">
+    <button id="pauseBtn">II</button>
+  </div>
+
+  <!-- script (single, external) -->
+  <script src="script.js"></script>
+</body>
+</html>
